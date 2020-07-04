@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+p:only-child { /* this will select only that parent which will have only this selected element which is p tag */
+  background: red;
+}
+</style>
+</head>
+<body>
+<p>Hello World!</p>
+<div><p>This is a paragraph.</p></div> <!-- only this will work -->
+<div><span>This is a span.</span><p>This is a paragraph.</p></div>
+
+</body>
+</html>

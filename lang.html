@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+q:lang(no) { /* allow different ruls for perticular element */
+  quotes: "~" "~";
+  font-size: 30px;
+}
+p:lang(it){ /* used to select elements with a lang attribute with the specified value */
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<p lang="it">Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+<p>In this example, :lang defines the quotation marks for q elements with lang="no":</p>
+
+</body>
+</html>
